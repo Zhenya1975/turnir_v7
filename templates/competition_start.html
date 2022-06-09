@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %} Начать турнир {% endblock %}
+
+{% block content %}
+<div class="container-fluid" style="margin-top: 10px">
+    <div class="row">
+        <div class="col">
+            <div class="text-center">
+                <a href="{{url_for( 'home.competition_create_new' )}}"><button type="button" class="btn btn-outline-info">Начать турнир</button></a>
+
+
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+{% endblock %}
